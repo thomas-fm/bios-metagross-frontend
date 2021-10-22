@@ -2,6 +2,7 @@ import React from 'react'
 import HeaderHome from '../template/HeaderHome'
 import style from '../style'
 import { SettingsOverscanOutlined } from '@material-ui/icons'
+import http from '../http-common'
 
 const FormPengajuan = () => {
 
@@ -35,14 +36,15 @@ const FormPengajuan = () => {
 
     const handleSubmit = (event) => {
         //insert value form
-        // const newProject = {
-        //     jenis_proyek = input.jenis_proyek,
-        //     jangka_waktu = input.jangka_waktu.toString(),
-        //     tools = input.tools,
-        //     prototipe = input.prototipe,
-        //     requirement = input.requirement
-        //}
+        const newProject = {
+            jenis_proyek: input.jenis_proyek,
+            jangka_waktu: input.jangka_waktu,
+            tools: input.tools,
+            prototipe: input.prototipe,
+            requirement: input.requirement
+        }
         //insert ke database
+        http.post(`/project`,newProject)
     }
 
     return (
