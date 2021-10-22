@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.profile {
+  display: flex
+}
+
+.list-enrolled-course {
+  border-color: black;
+  border-style: solid;
+  border-radius: 5px;
+  margin: 30px;
+  
+  
+}
+
+.list-taken-project {
+  border-color: black;
+  border-style: solid;
+  border-radius: 5px;
+  margin: 30px;
+}
+
+.list-added-project {
+  border-color: black;
+  border-style: solid;
+  border-radius: 5px;
+  margin: 30px;
+}
+
+
