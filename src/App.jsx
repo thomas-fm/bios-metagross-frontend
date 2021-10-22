@@ -1,15 +1,13 @@
-import React from 'react'
-import './index.css'
-import './pages/Profile'
-import Profile from './pages/Profile'
+import { useState } from 'react'
+import logo from './logo.svg'
+import './App.css'
+import Dashboard from './pages/dashboard'
 
 
 function App() {
  
   return (
-    <React.Fragment>
-      <Profile />
-    </React.Fragment>
+    <Dashboard/>
   )
 }
 
