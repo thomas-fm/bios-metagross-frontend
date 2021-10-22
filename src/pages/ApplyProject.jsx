@@ -11,7 +11,7 @@ const ApplyProject = () => {
     return (
     <React.Fragment>
         <HeaderHome />
-        <h1 className={classes.header_project}>Ambil projectmu sekarang!</h1>
+        <h1 className={classes.header_style}>Ambil projectmu sekarang!</h1>
         <div className={classes.project_style}>
             <div className={classes.project_detail}>        
                     <img src="../../assets/3.png" id="img-project"/>

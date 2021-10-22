@@ -1,13 +1,16 @@
 import { useState } from 'react'
 import logo from './logo.svg'
-import FormPengajuan from './pages/FormPengajuan'
+
+import Profile from './pages/Profile'
+import Course from './pages/Course'
+import ApplyProject from './pages/ApplyProject'
 
 
 
 function App() {
  
   return (
-    <FormPengajuan/>
+    <Course/>
   )
 }
 

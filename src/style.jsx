@@ -79,7 +79,7 @@ const useStyles = makeStyles((theme) => ({
     },
     course_style: {
         margin: 'auto',
-        marginTop: '100px',
+        marginTop: '50px',
         marginBottom: '30px',
         padding: '10px 10px 10px 10px',
         width: '80%',
@@ -106,7 +106,7 @@ const useStyles = makeStyles((theme) => ({
         marginTop: '10px',
         fontSize: '32px'
     },
-    header_project : {
+    header_style : {
         textAlign: 'center',
         marginTop: '20px'
     },

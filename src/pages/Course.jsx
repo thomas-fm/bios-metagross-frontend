@@ -11,17 +11,18 @@ const Course = () => {
     return (
     <React.Fragment>
         <HeaderHome />
-            <div className={classes.course_style}>
-                <div className={classes.course_detail}>
-                    
-                        <img src="../../assets/3.png" id="img-course"/>
-                        <ul className={classes.list_course_detail}> 
-                            <li>Nama Course : Python</li>
-                            <li>Difficulty  : Medium</li>
-                            <li>XP reward   : 2000</li>
-                        </ul>
-                </div>
+        <h1 className={classes.header_style}>Ambil course yang kalian minati!</h1>
+        <div className={classes.course_style}>
+            <div className={classes.course_detail}>
+                
+                    <img src="../../assets/3.png" id="img-course"/>
+                    <ul className={classes.list_course_detail}> 
+                        <li>Nama Course : Python</li>
+                        <li>Difficulty  : Medium</li>
+                        <li>XP reward   : 2000</li>
+                    </ul>
             </div>
+        </div>
 
         <Container >
             <Row>
