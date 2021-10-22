@@ -15,6 +15,12 @@ const useStyles = makeStyles((theme) => ({
         fontSize: '20px',
         color: 'white'
     },
+    text2: {
+        textTransform: 'none',
+        fontWeight: 'bold',
+        fontSize: '24px',
+        marginLeft: '70px'
+    },
     list: {
         listStyle: 'none',
         display: 'flex',

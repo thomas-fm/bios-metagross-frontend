@@ -72,13 +72,13 @@ label {
   width: 100%;
 }
 
-#jenis-proyek-label, #jangka-waktu-label, #tools-label, #prototipe-label, #requirement-label{
+#jenis_proyek-label, #jangka_waktu-label, #tools-label, #prototipe-label, #requirement-label{
   font-weight: bold;
   margin-top: 10px;
   font-size: 14px;
 }
 
-#jenis-proyek, #jangka-waktu, #tools, #prototipe, #requirement {
+#jenis_proyek, #jangka_waktu, #tools, #prototipe, #requirement {
   width: 100%;
 }
 
