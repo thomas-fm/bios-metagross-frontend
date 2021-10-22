@@ -14,30 +14,69 @@ code {
 
 
 .profile {
-  display: flex
+  display: flex;
 }
 
+#img-person {
+  margin: 20px 20px 20px 30px;
+  height: 10%;
+  width: 10%;
+  border-radius: 50%;
+}
+
+.person-data {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  display: grid;
+  width: 50%;
+  border: solid black;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.detail-person-data {
+  list-style: None;
+  justify-content: space-between;
+  display:flex;
+}
+
+#person-name {
+  margin-left: -32px;
+}
+
+#label-course {
+  margin-left: 30px;
+}
 .list-enrolled-course {
   border-color: black;
   border-style: solid;
   border-radius: 5px;
   margin: 30px;
-  
+  width: 80%;
   
 }
 
+#label-taken-project {
+  margin-left: 30px;
+}
 .list-taken-project {
   border-color: black;
   border-style: solid;
   border-radius: 5px;
   margin: 30px;
+  width: 80%;
 }
 
+#label-added-project {
+  margin-left: 30px;
+}
 .list-added-project {
   border-color: black;
   border-style: solid;
   border-radius: 5px;
   margin: 30px;
+  width: 80%;
 }
 
 
