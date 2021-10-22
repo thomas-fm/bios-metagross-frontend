@@ -34,7 +34,7 @@ const Dashboard = () => {
                     <h2 className={classes.course1}>Projects</h2>
                 </li>
                 <li>
-                    <div className={classes.profile1}><a className={classes.text1}href=""> Ajukan Proyek </a></div>
+                    <div className={classes.profile1}><a className={classes.text1} href=""> Ajukan Proyek </a></div>
                 </li>
             </ul>
             <section className={classes.section}>

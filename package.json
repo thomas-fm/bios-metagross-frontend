@@ -17,6 +17,8 @@
     "react-dom": "^17.0.0",
     "react-material-ui-carousel": "^2.3.5",
     "react-responsive-carousel": "^3.2.22",
+    "react-router": "^5.2.1",
+    "react-router-dom": "^5.3.0",
     "react-touch-carousel": "^0.10.2"
   },
   "devDependencies": {

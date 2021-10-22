@@ -1,7 +1,7 @@
 import React from 'react'
 import style from '../style'
 
-const Header = () => {
+const HeaderHome = () => {
 
     const classes = style()
 
@@ -13,7 +13,7 @@ const Header = () => {
                         LearNPro
                     </li>    
                     <li>
-                        <div className={classes.profile}><a className={classes.text1} href=""> Profile </a></div>
+                        <div className={classes.profile}><a className={classes.text1} href=""> Home </a></div>
                     </li>    
                 </ul> 
             </nav>
@@ -21,4 +21,4 @@ const Header = () => {
     )
     
 }
-export default Header
+export default HeaderHome
