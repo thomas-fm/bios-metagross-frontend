@@ -62,8 +62,14 @@ const useStyles = makeStyles((theme) => ({
         border: 'solid 1px',
         borderRadius: '5px',
         boxShadow: '0px 0px 3px grey'
+    },
+    list_enrolled_course: {
+        borderColor: "black",
+        borderStyle: 'solid',
+        borderRadius: '5px',
+        margin: '30px',
+        width: '80%'
     }
-
 }));
 
 export default useStyles
