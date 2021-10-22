@@ -1,4 +1,5 @@
 import {makeStyles} from '@material-ui/core'
+import { auto } from '@popperjs/core';
 
 const useStyles = makeStyles((theme) => ({
 
@@ -64,11 +65,58 @@ const useStyles = makeStyles((theme) => ({
         boxShadow: '0px 0px 3px grey'
     },
     list_enrolled_course: {
-        borderColor: "black",
+        borderColor: 'black',
         borderStyle: 'solid',
         borderRadius: '5px',
         margin: '30px',
         width: '80%'
+    },
+    course_style: {
+        margin: 'auto',
+        marginTop: '100px',
+        marginBottom: '30px',
+        padding: '10px 10px 10px 10px',
+        width: '80%',
+        borderRadius: '5px',
+        borderColor: 'black',
+        borderStyle: 'solid'
+    },
+    course_detail: {
+        display: 'flex',
+        fontSize: '36px'
+    },
+    list_course_detail: {
+        listStyle: 'None',
+        marginTop: '25px'
+    },
+    view_course_style: {
+        textDecoration: 'None'
+    },
+    button_style: {
+        backgroundColor: '#6dd400'
+      },
+    list_project_detail : {
+        listStyle: 'None',
+        marginTop: '10px',
+        fontSize: '32px'
+    },
+    header_project : {
+        textAlign: 'center',
+        marginTop: '20px'
+    },
+    project_style: {
+        margin: 'auto',
+        marginTop: '50px',
+        marginBottom: '30px',
+        padding: '10px 10px 10px 10px',
+        width: '80%',
+        borderRadius: '5px',
+        borderColor: 'black',
+        borderStyle: 'solid'
+    },
+    project_detail: {
+        display: 'flex',
+        fontSize: '36px'
     }
 }));
 

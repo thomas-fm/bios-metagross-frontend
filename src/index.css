@@ -109,5 +109,22 @@ input {
   font-weight: bold;
 }
 
+#img-course {
+  margin-right: 10px;
+  height: 30%;
+  width: 20%;
+  border-style: solid;
+  border-color: black;
+}
 
+#button_style:hover {
+  background-color: green;
+}
 
+#img-project {
+  margin-right: 10px;
+  height: 30%;
+  width: 20%;
+  border-style: solid;
+  border-color: black;
+}

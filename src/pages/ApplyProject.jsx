@@ -1,14 +1,38 @@
 import React from 'react'
+import style from '../style'
+import { Container, Row, Col, Button} from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import HeaderHome from '../template/HeaderHome';
 
-const Course = () => {
+const ApplyProject = () => {
+
+    const classes = style()
+
+    return (
     <React.Fragment>
-        <div className="project-detail">
-            <img src=""/>
+        <HeaderHome />
+        <h1 className={classes.header_project}>Ambil projectmu sekarang!</h1>
+        <div className={classes.project_style}>
+            <div className={classes.project_detail}>        
+                    <img src="../../assets/3.png" id="img-project"/>
+                    <ul className={classes.list_project_detail}> 
+                        <li>Nama Project : Baskara Project</li>
+                        <li>Syarat Level : 80</li>
+                        <li>XP reward : 2000</li>
+                        <li>Bayaran : Rp. 2.000.000</li>
+                    </ul>
+            </div>
+        </div>
 
-        </div>
-        <div>
-            <h4>Free</h4>
-            <button>Enroll</button>
-        </div>
+        <Container >
+            <Row>
+                <Col></Col>
+                <Col md="auto"></Col>
+                <Col xs lg="1"><Button  className={classes.button_style} id='button_style'>Ambil</Button></Col>
+            </Row>
+        </Container>
     </React.Fragment>
+    )
 }
+
+export default ApplyProject
