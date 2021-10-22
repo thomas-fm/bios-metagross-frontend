@@ -48,35 +48,15 @@ code {
 #label-course {
   margin-left: 30px;
 }
-.list-enrolled-course {
-  border-color: black;
-  border-style: solid;
-  border-radius: 5px;
-  margin: 30px;
-  width: 80%;
-  
-}
+
 
 #label-taken-project {
   margin-left: 30px;
-}
-.list-taken-project {
-  border-color: black;
-  border-style: solid;
-  border-radius: 5px;
-  margin: 30px;
-  width: 80%;
 }
 
 #label-added-project {
   margin-left: 30px;
 }
-.list-added-project {
-  border-color: black;
-  border-style: solid;
-  border-radius: 5px;
-  margin: 30px;
-  width: 80%;
-}
+
 
 

@@ -20,7 +20,7 @@ const Profile = () => {
                         <li><h4 id="person-name">Ian Sommerville</h4></li>
                         <li><h4>Balance</h4></li>
                     </ul>
-                    <h4>Level</h4>
+                    <h4>Level 80</h4>
                     <ProgressBar now={80} />
                     {/*Nanti kalau backend sudah set: ngambil data level*/}
                     {/*Nanti kalau backend sudah set: balance*/}
@@ -29,7 +29,7 @@ const Profile = () => {
 
             <h4 id="label-course">Course yang telah diambil</h4>
             <div>
-                <Container fluid  className="list-enrolled-course">
+                <Container fluid  className={classes.list_enrolled_course}>
                     <ul>
                         <li>Backend</li>
                         <li>Frontend</li>
@@ -40,7 +40,7 @@ const Profile = () => {
 
             <h4 id="label-taken-project">Project yang telah diambil</h4>
             <div >
-                <Container fluid  className="list-taken-project" >
+                <Container fluid  className={classes.list_enrolled_course} >
                     <ul>
                         <li>Website UMKM</li>
                         <li>Website Kampus</li>
