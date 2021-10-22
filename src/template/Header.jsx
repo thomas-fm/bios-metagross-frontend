@@ -6,7 +6,7 @@ const Header = () => {
     const classes = style()
 
     return (
-        <header className={classes.header}>
+        <header>
             <nav className={classes.navbar}>
                 <ul className={classes.list}>
                     <li className={classes.text}>
