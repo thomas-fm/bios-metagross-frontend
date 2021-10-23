@@ -20,6 +20,7 @@ const ApplyProject = () => {
                         <li>Syarat Level : 80</li>
                         <li>XP reward : 2000</li>
                         <li>Bayaran : Rp. 2.000.000</li>
+                        <li><a href='' className={classes.view_project_detail}>view detail</a></li>
                     </ul>
             </div>
         </div>

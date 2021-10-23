@@ -1,5 +1,5 @@
 import {makeStyles} from '@material-ui/core'
-import { auto } from '@popperjs/core';
+import { auto, right } from '@popperjs/core';
 
 const useStyles = makeStyles((theme) => ({
 
@@ -89,7 +89,7 @@ const useStyles = makeStyles((theme) => ({
     },
     course_detail: {
         display: 'flex',
-        fontSize: '36px'
+        fontSize: '30px'
     },
     list_course_detail: {
         listStyle: 'None',
@@ -104,7 +104,7 @@ const useStyles = makeStyles((theme) => ({
     list_project_detail : {
         listStyle: 'None',
         marginTop: '10px',
-        fontSize: '32px'
+        fontSize: '27px'
     },
     header_style : {
         textAlign: 'center',
@@ -122,8 +122,16 @@ const useStyles = makeStyles((theme) => ({
     },
     project_detail: {
         display: 'flex',
-        fontSize: '36px'
-    }
+    },
+    view_course_detail: {
+        textDecoration: 'None',
+        fontSize: '25px'
+    },
+    view_project_detail: {
+        textDecoration: 'None',
+        fontSize: '25px'
+    },
+
 }));
 
 export default useStyles

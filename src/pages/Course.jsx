@@ -20,7 +20,9 @@ const Course = () => {
                         <li>Nama Course : Python</li>
                         <li>Difficulty  : Medium</li>
                         <li>XP reward   : 2000</li>
+                        <li><a href='' className={classes.view_course_detail}>view detail</a></li>
                     </ul>
+                    
             </div>
         </div>
 
