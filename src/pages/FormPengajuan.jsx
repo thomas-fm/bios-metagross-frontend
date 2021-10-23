@@ -4,6 +4,7 @@ import style from '../style'
 import { SettingsOverscanOutlined } from '@material-ui/icons'
 import http from '../http-common'
 import axios from 'axios'
+import { useHistory } from 'react-router-dom'
 
 const FormPengajuan = () => {
 
@@ -37,6 +38,8 @@ const FormPengajuan = () => {
         setValue(event.target.value)
     }
 
+    let history = useHistory()
+
     const handleSubmit = (event) => {
         //insert value form
         const newProject = {
@@ -52,7 +55,12 @@ const FormPengajuan = () => {
         //insert ke database
         // axios.post(`http://127.0.0.1:8000/projects`,{newProject})
         //     .then(res => console.log(res))
-        http.post(`/projects`, newProject)
+        http.post(`/projects`, newProject).then(
+            res => {
+                let id = res.data.id
+                history.push(`/project_jadi/:${id}`)
+            }
+        )
     }
 
     return (
