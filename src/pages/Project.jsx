@@ -4,6 +4,8 @@ import { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import http from '../http-common'
 import axios from 'axios'
+import HeaderHome from '../template/HeaderHome'
+
 
 const Project = () => {
     const [fetch, setFetch] = React.useState(true)
@@ -13,9 +15,10 @@ const Project = () => {
         level : ""
     })
 
+    const { id } = useParams();
+
     useEffect(()=>{
         let project_id = () => {
-            let {id} = useParams()
         
             http.get(`/projects/${id}`).then(res => {
                 let data = res.data
@@ -34,17 +37,19 @@ const Project = () => {
 
 
     return (
+        
         <div>
+            <HeaderHome/>
             <div>
                 <ul>
                     <li>
-                        Estimasi Budget Proyek :
+                        Estimasi Budget Proyek : {state.biaya}
                     </li>
                     <li>
-                        Minimum Level :
+                        Minimum Level : {state.level}
                     </li>
                     <li>
-                        Exp :
+                        Exp : {state.exp}
                     </li>    
                 </ul>                
             </div>

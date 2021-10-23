@@ -58,7 +58,7 @@ const FormPengajuan = () => {
         http.post(`/projects`, newProject).then(
             res => {
                 let id = res.data.id
-                history.push(`/projects/:${id}`)
+                history.push(`/projects/${id}`)
             }
         )
     }
