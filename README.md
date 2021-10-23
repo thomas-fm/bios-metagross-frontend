@@ -1,4 +1,4 @@
-
+# BIOS Frontend Repository
 ## Team Metagross
     Afif Fahreza / 18219058
     Thomas Ferdinand Martin / 13519099
@@ -10,6 +10,6 @@
     dan desain dan juga menyediakan proyek - proyek yang dapat diambil oleh pengguna aplikasi tersebut.
 
 ## How To Run Locally
-    git clone https://github.com/thomas-fm/hackbiz-metagross
+    git clone https://github.com/thomas-fm/bios-metagross-frontend
     npm install
     npm run dev
