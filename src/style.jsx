@@ -110,6 +110,10 @@ const useStyles = makeStyles((theme) => ({
         textAlign: 'center',
         marginTop: '20px'
     },
+    header_project : {
+        textAlign: 'center',
+        marginTop: '20px'
+    },
     project_style: {
         margin: 'auto',
         marginTop: '50px',

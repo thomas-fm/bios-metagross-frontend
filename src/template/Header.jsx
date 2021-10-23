@@ -1,5 +1,6 @@
 import React from 'react'
 import style from '../style'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
 
@@ -13,7 +14,7 @@ const Header = () => {
                         LearNPro
                     </li>    
                     <li>
-                        <div className={classes.profile}><a className={classes.text1} href=""> Profile </a></div>
+                        <div className={classes.profile}><Link className={classes.text1} to="/profile"> Profile </Link></div>
                     </li>    
                 </ul> 
             </nav>

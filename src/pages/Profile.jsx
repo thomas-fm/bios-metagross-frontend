@@ -1,7 +1,7 @@
 import React from 'react'
 import { ProgressBar, Container} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from '../template/Header';
+import HeaderHome from '../template/HeaderHome';
 import style from '../style'
 
 
@@ -12,7 +12,7 @@ const Profile = () => {
     
     return (
         <React.Fragment>
-            <Header />
+            <HeaderHome />
             <div className="profile"> 
                 <img src="../../assets/Isom.jpg" id="img-person"/>
                 <div className="person-data">
