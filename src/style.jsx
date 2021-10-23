@@ -9,17 +9,37 @@ const useStyles = makeStyles((theme) => ({
         fontSize: '24px',
         marginLeft: '30px'
     },
+    text5: {
+        textTransform: 'none',
+        fontWeight: 'bold',
+        fontSize: '24px',
+        marginLeft: '65px',
+        marginTop: '30px'
+    },
     text1: {
         textDecoration: 'none',
         fontWeight: '400px',
         fontSize: '20px',
         color: 'white'
     },
+    text4: {
+        textDecoration: 'none',
+        fontSize: '16px',
+        color: 'white'
+    },
     text2: {
         textTransform: 'none',
         fontWeight: 'bold',
         fontSize: '24px',
-        marginLeft: '70px'
+        marginLeft: '65px',
+        marginTop: '30px'
+    },
+    text3: {
+        textTransform: 'none',
+        fontWeight: 'bold',
+        fontSize: '24px',
+        marginLeft: '65px',
+        marginTop: '40px'
     },
     list: {
         listStyle: 'none',
@@ -57,10 +77,12 @@ const useStyles = makeStyles((theme) => ({
         margin: 'auto'
     },
     course: {
-        margin: '50px 0px 0px 70px'
+        margin: '50px 0px 0px 70px',
+        fontSize: '28px'
     },
     course1: {
-        margin: '10px 0px 0px 30px'
+        margin: '10px 0px 0px 30px',
+        fontSize: '28px'
     },
     section: {
         width: '80%',
@@ -75,7 +97,7 @@ const useStyles = makeStyles((theme) => ({
         borderStyle: 'solid',
         borderRadius: '5px',
         margin: '30px',
-        width: '80%'
+        width: '100%'
     },
     course_style: {
         margin: 'auto',
@@ -83,7 +105,7 @@ const useStyles = makeStyles((theme) => ({
         marginBottom: '30px',
         padding: '10px 10px 10px 10px',
         width: '80%',
-        borderRadius: '5px',
+        borderRadius: '10px',
         borderColor: 'black',
         borderStyle: 'solid'
     },
@@ -93,22 +115,28 @@ const useStyles = makeStyles((theme) => ({
     },
     list_course_detail: {
         listStyle: 'None',
-        marginTop: '25px'
+        marginTop: '25px',
+        fontSize: '26px'
+    },
+    list_course_detail2: {
+        margin: '10px auto 10px auto'
     },
     view_course_style: {
-        textDecoration: 'None'
+        textDecoration: 'None',
+        marginLeft: '15px'
     },
     button_style: {
         backgroundColor: '#6dd400'
-      },
+    },
     list_project_detail : {
         listStyle: 'None',
         marginTop: '10px',
-        fontSize: '27px'
+        fontSize: '26px',
     },
     header_style : {
         textAlign: 'center',
-        marginTop: '20px'
+        marginTop: '20px',
+        fontSize: '30px'
     },
     header_project : {
         textAlign: 'center',
@@ -120,7 +148,7 @@ const useStyles = makeStyles((theme) => ({
         marginBottom: '30px',
         padding: '10px 10px 10px 10px',
         width: '80%',
-        borderRadius: '5px',
+        borderRadius: '10px',
         borderColor: 'black',
         borderStyle: 'solid'
     },
@@ -129,13 +157,33 @@ const useStyles = makeStyles((theme) => ({
     },
     view_course_detail: {
         textDecoration: 'None',
-        fontSize: '25px'
+        fontSize: '18px'
     },
     view_project_detail: {
         textDecoration: 'None',
-        fontSize: '25px'
+        fontSize: '18px'
     },
-
+    project_info: {
+        listStyle: 'none',
+        margin: '20px auto 20px auto',
+        fontWeight: 'bold'
+    },
+    page_wrapper : {
+        border: '1px solid',
+        boxShadow: '0px 0px 3px grey',
+        margin: '50px auto',
+        width: '60%',
+        borderRadius: '10px',
+    },
+    header: {
+        marginTop: '15px'
+    },
+    profile_wrapper: {
+        margin: '0px 100px 0px 80px'
+    },
+    img_google: {
+        marginTop: '40px'
+    }
 }));
 
 export default useStyles

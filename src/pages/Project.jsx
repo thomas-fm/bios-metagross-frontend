@@ -8,6 +8,9 @@ import HeaderHome from '../template/HeaderHome'
 
 
 const Project = () => {
+
+    const classes = style()
+
     const [fetch, setFetch] = React.useState(true)
     const [state, setState] = React.useState({
         biaya : "",
@@ -40,8 +43,9 @@ const Project = () => {
         
         <div>
             <HeaderHome/>
-            <div>
-                <ul>
+            <h3 className={classes.text3}> Your Project's Spesification : </h3>
+            <div className={classes.page_wrapper}>
+                <ul className={classes.project_info}>
                     <li>
                         Estimasi Budget Proyek : {state.biaya}
                     </li>

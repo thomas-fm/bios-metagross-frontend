@@ -14,9 +14,9 @@ const ApplyProject = () => {
         <h1 className={classes.header_style}>Ambil projectmu sekarang!</h1>
         <div className={classes.project_style}>
             <div className={classes.project_detail}>        
-                    <img src="../../assets/3.png" id="img-project"/>
+                    <img src="../../assets/4.png" id="img-project"/>
                     <ul className={classes.list_project_detail}> 
-                        <li>Nama Project : Baskara Project</li>
+                        <li>Nama Project : Google's AI Project</li>
                         <li>Syarat Level : 80</li>
                         <li>XP reward : 2000</li>
                         <li>Bayaran : Rp. 2.000.000</li>

@@ -35,22 +35,22 @@ const Dashboard = () => {
                     <h2 className={classes.course1}>Projects</h2>
                 </li>
                 <li>
-                    <div className={classes.profile1}><Link className={classes.text1} to="/submit_project"> Ajukan Proyek </Link></div>
+                    <div className={classes.profile1}><Link className={classes.text4} to="/submit_project"> Ajukan Proyek </Link></div>
                 </li>
             </ul>
             <section className={classes.section}>
                 <Carousel className={classes.carousel}>
                     <div className={classes.image}>
-                        <img  src="../../assets/1.png" />
-                        <Link className="legend" to="/apply_project">Full Stack Development Course</Link>
+                        <img  src="../../assets/4.png" className={classes.img_google}/>
+                        <Link className="legend" to="/apply_project">Google's AI Project</Link>
                     </div>
                     <div className={classes.image}>
-                        <img  src="../../assets/2.png" />
-                        <a href="" className="legend">Figma Full Course</a>
+                        <img  src="../../assets/5.png" />
+                        <a href="" className="legend">Best Sport's Web Project</a>
                     </div>
                     <div className={classes.image}>
-                        <img  src="../../assets/3.png" />
-                        <a href="" className="legend">Python Full Course</a>
+                        <img  src="../../assets/6.png" />
+                        <a href="" className="legend">Boco Tea's Design Project</a>
                     </div>
                 </Carousel>
             </section>
